@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        h1 {
+            text-align: center;
+            font-size: 60px;
+            padding: 20px;
+        }
+
+        body {
+           background-color: lightpink;
+        }
+        @media only screen and (max-width: 600px) {
+            body {
+                background-color: lightblue;
+            }
+        }
+
+        .clm {
+            float: left;
+            width: 28.3%;
+            padding: 40px;
+            backdrop-filter: blur(10px);
+
+        }
+
+        .price {
+            border: 1px solid black;
+            margin: 0;
+            padding: 0;
+            transition: 0.3s;
+            list-style: none;
+            background-color: rgba(87, 29, 99, 0.076);
+            backdrop-filter: blur(20px);
+        }
+
+        .com {
+            background-color: black;
+            color: white;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        li {
+            text-align: center;
+            border-bottom: 1px solid lightgray;
+            padding: 20px;
+        }
+
+        .price:hover {
+            box-shadow: 5px 5px 5px rgb(51, 51, 51);
+            transform: scale(1.1);
+        }
+
+       
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>subject list</title>
+</head>
+
+<body>
+    <h1><u><b>Subject list</b></u></h1>
+    <p style="text-align: center; font-size: 30px;">This is subject list</p>
+    <div class="clm">
+        <ul class="price">
+            <li class="com">Commerce</li>
+            <li>Accontant</li>
+            <li>statistic</li>
+            <li>Economics</li>
+            <li>business administration</li>
+            <li>Gujarati</li>
+            <li>English</li>
+            <li>Computer</li>
+        </ul>
+    </div>
+    <div class="clm">
+        <ul class="price">
+            <li class="com">Science</li>
+            <li> Chemistry</li>
+            <li>Mathematics</li>
+            <li>Physics</li>
+            <li>Biology</li>
+            <li>Astronomy</li>
+            <li>Computer Science</li>
+            <li>Earth science</li>
+
+        </ul>
+    </div>
+    <div class="clm">
+        <ul class="price">
+            <li class="com">Arts</li>
+            <li>Geography</li>
+            <li>Socilology</li>
+            <li>Hindi</li>
+            <li>Psychology</li>
+            <li>Economics</li>
+            <li>Philosophy</li>
+            <li>History</li>
+        </ul>
+    </div>
+</body>
+
+</html>
